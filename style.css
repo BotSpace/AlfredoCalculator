@@ -1,0 +1,40 @@
+body {
+  background: #efe4b0;
+  font-family: Gotham Rounded, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle {
+    border: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #4dae50;
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(5, 50px);
+}
+
+
+.calculator-grid > button {
+  margin: 5px;
+  height: 40px;
+  background-color: #4dae50;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.span-four {
+  grid-column: span 4;
+}
